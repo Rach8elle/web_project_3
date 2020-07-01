@@ -1,0 +1,302 @@
+@import url('../vendor/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+.page {
+    background-color: #2a2c2f;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+      /* -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility; */
+}
+
+.page_container {
+    margin: 0 auto;
+    max-width: 1184px;
+    color: #fff;
+  }
+
+.header {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin: 34px auto 0 auto;
+    max-width: 984px;
+    height: 44px;
+}
+
+
+.logo {
+    position: absolute;
+    width: 190px;
+    height: 44px;
+    /* left: 148px; */
+    /* top: 34px; */
+}
+
+
+.link {
+
+
+}
+
+.menu {
+  
+    justify-content: right;
+    min-height: 75px;
+    align-items: right;
+    margin: 46px 0 0;
+  
+   
+
+}
+
+.menu__links {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration-line: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+
+}
+
+.menu__link_active {
+    text-decoration: underline;
+}
+
+
+
+.content {
+
+
+}
+
+
+
+.lead {
+    /* min-height: calc(60vh - 60px); */
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.lead__title {
+    max-width: 720px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    text-align: center;
+    margin: 64px auto 0 auto;
+
+}
+
+.lead__subtitle {
+    max-width: 620px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 30px auto 64px auto;
+
+}
+
+.lead__image {
+    /* background-image: url(../images/lead-mountains.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 615px;
+    margin: auto;
+    box-sizing: border-box; */
+    max-width: 984px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.lead__caption {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.intro {
+    /* margin: 0 auto; */
+    max-width: 984px;
+    margin-left: 100px;
+
+}
+
+.intro__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 690px;
+    max-height: 116px;
+    /* margin: 97px 0 40px 0; */
+    /* margin: 97px auto 40px auto; */
+    margin-top: 97px;
+
+   
+
+
+
+}
+
+.intro__subtitle {
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 690px;
+    max-height: 68px;
+    margin-top: -11px;
+  
+
+
+}
+
+.intro__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 690px;
+    margin-top: 32px;
+   
+
+
+}
+
+
+.intro__stats {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 690px;
+    max-height: 72px;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.span-accent {
+    font-weight: 700;
+
+}
+
+.photo-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px 1fr));
+}
+
+
+.photo-grid-container {
+
+
+} 
+
+
+.cover {
+   
+
+}
+
+
+.cover__link {
+    text-decoration: none;
+    min-height: 740px;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/cover-route-66.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;   
+
+}
+
+.cover__link:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #2a2c2f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-delay: .4s;
+    opacity: .5;
+    transition-duration: .4s;
+}
+
+
+.cover__link:hover:after {
+    opacity: .7;
+
+}
+
+
+
+.cover__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    min-width: 656px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.cover__text {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 320px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+
+@media screen and (max-width: 1202px) {
+
+    .intro {
+             
+        margin-left: 50px;
+    
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    .intro {
+            
+        margin-left: 0;
+    
+    }
+
+}
