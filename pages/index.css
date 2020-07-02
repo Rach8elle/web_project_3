@@ -214,74 +214,127 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-template-rows: auto;
-    gap: 16px;
+    grid-gap: 16px;
     width: 100%;
+    list-style: none;
     } 
 
 
 
 .photo-grid__image {
-    list-style: none;
     width: 100%;
   
 }
 
-.photo-grid__image-1 {
- 
+.places {
+    margin: 92px auto 0 auto;
+    max-width: 984px;
+
+
+   
+
+
 }
 
-.photo-grid__image-2 {
+.places__list {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: auto;
     
+  
+}
+
+.places__url {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+
+.places__link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-top: 12px;
+    color: #fff;
 
 }
 
-.photo-grid__image-3 {
+
+.places__two-columns-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between; */
+    /* margin-bottom: 30px; */
    
  
+ }
+
+.places__two-columns-bottom {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+   margin-bottom: 88px;  
+   margin-top: 48px;
 
 }
 
-.photo-grid__image-4 {
-  
- 
-
-}
-.photo-grid__image-5 {
-    
+.places__two-columns:last-child {
+    margin-bottom: 0;
 
 }
 
-.photo-grid__image-6 {
-  
+
+.places__title {
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    max-width: 460px;
+    width: 100%;
+    margin-right: 40px;
 }
 
-.photo-grid__image-7 {
 
-   
+.places__image {
+    width: 460px;
+    height: 460px;
+    /* width: 100%; */
+    margin: 0 auto 0 0;
 }
 
-.photo-grid__image-8 {
-   
-}
-.photo-grid__image-9 {
 
-  
+.places__main-text {
+    width: 484px;
 
-}
-
-.photo-grid__image-10 {
-
- 
 
 }
 
-.photo-grid__image-11 {
-  
+
+
+
+
+.places__reg-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 29px;
+    margin-top: -8px;
+
+
 }
 
-.photo-grid__image-12 {
-  
+.places__med-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+
 }
+
+
 
 
 
