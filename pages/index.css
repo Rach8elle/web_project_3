@@ -4,13 +4,13 @@
 .page {
     background-color: #2a2c2f;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     text-rendering: optimizeLegibility;
-      /* -moz-osx-font-smoothing: grayscale;
+      -moz-osx-font-smoothing: grayscale;
      -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
      -ms-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%; */
+     -moz-text-size-adjust: 100%;
    
 }
 
@@ -214,7 +214,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 16px;
+    gap: 16px;
     width: 100%;
     list-style: none;
     } 
@@ -402,6 +402,37 @@
     text-align: center;
     position: relative;
     z-index: 1;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 92px;
+ 
+
+}
+
+.footer__nav {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer__links {
+    display: inline;
+
+}
+
+
+.footer__link {
+
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
 
 
 }
