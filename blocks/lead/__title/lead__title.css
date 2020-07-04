@@ -5,6 +5,18 @@
     font-size: 96px;
     line-height: 104%;
     text-align: center;
-    margin: 64px auto 0 auto;
+    margin: 0 auto;
 
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+
+    .lead__title {
+      font-size: 40px;
+      line-height: 44px;
+    }
 }

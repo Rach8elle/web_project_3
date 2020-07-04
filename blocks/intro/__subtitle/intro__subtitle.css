@@ -3,3 +3,16 @@
     line-height: 34px;
     max-width: 690px;
   }
+
+
+  
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+  .intro__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    
+  }
+  }
+  

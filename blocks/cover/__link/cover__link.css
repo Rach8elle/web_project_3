@@ -31,3 +31,35 @@
     opacity: .7;
 
 }
+
+
+/* tablets */
+@media screen and (max-width: 1160px) {
+
+   
+
+   
+    .cover__link {
+        min-height: 640px;
+    }
+  
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+   
+  
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+.cover__link {
+    min-height: 200px;
+}
+}

@@ -2,3 +2,18 @@
     display: inline;
 
 }
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+.footer__links {
+    display: flex;
+}
+
+
+.footer__links:last-child {
+    margin-bottom: 48px;
+}
+
+}

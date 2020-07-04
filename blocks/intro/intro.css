@@ -8,7 +8,39 @@
 
 .intro {
     max-width: 984px;
+    width: 100%;
     margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+    .intro {
+        margin-left: 24px;
+        margin-bottom: 88px;
+       
+           
+    }
+
+
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+    .intro{
+
+        margin-left: 16px;
+        margin-bottom: 64px;
+        
+    }
+
+}
+

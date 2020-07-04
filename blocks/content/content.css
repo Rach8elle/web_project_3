@@ -1,0 +1,39 @@
+.content {
+
+   margin-top: 58px;
+}
+
+
+
+/* tablets */
+@media screen and (max-width: 1160px) {
+
+    .content {
+
+        margin-top: 50px;
+     }
+
+
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+    .content {
+
+        margin-top: 50px;
+     }
+
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+    .content {
+
+        margin-top: 50px;
+     }
+
+}

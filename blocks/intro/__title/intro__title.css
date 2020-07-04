@@ -8,3 +8,14 @@
     line-height: 58px;
     max-width: 690px;
 }
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+.intro__title {
+    
+    font-size: 32px;
+    line-height: 35px;
+}
+}
+

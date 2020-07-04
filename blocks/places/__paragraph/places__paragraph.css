@@ -6,3 +6,16 @@
     margin-bottom: 24px;
   
 }
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+
+    .places__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 16px;
+    }
+   
+}

@@ -6,3 +6,13 @@
     grid-column: 2;
     /* grid-row: 1/2; */
 }
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+    .places__list {
+        display: none;
+    }
+
+}

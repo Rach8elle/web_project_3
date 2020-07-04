@@ -2,6 +2,40 @@
 @import url('../photo-grid/__image/photo-grid__image.css');
 
 .photo-grid {
-    margin: 92px 0 0 0;
+    margin: 92px 0 0;
        
+}
+
+
+
+/* tablets */
+@media screen and (max-width: 1160px) { 
+
+.photo-grid {
+    margin: 0;
+}
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+    .photo-grid {
+        margin-left: 24px;
+       
+           
+    }
+
+
+}
+
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+.photo-grid {
+    margin-left: 16px;
+
+
+    }
 }

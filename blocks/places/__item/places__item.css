@@ -14,3 +14,35 @@
     margin-bottom: 0;
 
 }
+
+
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+    .places__item  {
+        margin-bottom: 72px;
+
+    }
+
+
+
+}
+
+
+  
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+
+
+    .places__item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+       
+    }
+}

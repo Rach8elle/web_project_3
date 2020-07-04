@@ -2,5 +2,26 @@
     color: #fff;
     text-decoration: none;
     margin-right: 18px;
+    transition: opacity .3s ease;
+
+}
+
+
+
+.footer__link:hover {
+    opacity:.5;
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+.footer__link {
+
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
 
 }

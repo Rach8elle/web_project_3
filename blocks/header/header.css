@@ -13,7 +13,7 @@
 }
 
 /* tablets */
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1024px) {
 
     .header {
         max-width: 928px;
@@ -24,7 +24,7 @@
 
 
     /* large smart phone */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
    
     .header {
 
@@ -44,6 +44,7 @@
     .header {
   
       max-width: 288px;
+      margin: 0;
   
     }
 

@@ -4,3 +4,41 @@
     /* height: auto; */
     /* margin: auto; */
 }
+
+
+
+
+/* tablets */
+@media screen and (max-width: 1024px) {
+.lead__image {
+    
+    width: 100%;
+
+}
+}
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+   
+  
+
+    .lead__image {
+        width: 100vw;
+    }
+
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+   
+    .lead__image {
+ 
+     min-height: 200px;
+     min-width: 320px;
+   
+    }
+
+}
