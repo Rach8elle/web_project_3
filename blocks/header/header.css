@@ -1,0 +1,50 @@
+@import url('../header/__links/header__links.css');
+@import url('../header/__link/header__link.css');
+@import url('../header/__link_active/header__link_active.css');
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 34px auto 0;
+    max-width: 984px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* tablets */
+@media screen and (max-width: 1160px) {
+
+    .header {
+        max-width: 928px;
+       
+    }
+
+}
+
+
+    /* large smart phone */
+@media screen and (max-width: 990px) {
+   
+    .header {
+
+        max-width: 720px;
+    
+      }
+
+    }
+
+
+    /* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+  
+
+    .header {
+  
+      max-width: 288px;
+  
+    }
+
+}

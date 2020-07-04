@@ -1,0 +1,7 @@
+@import url('../photo-grid/__container/photo-grid__container.css');
+@import url('../photo-grid/__image/photo-grid__image.css');
+
+.photo-grid {
+    margin: 92px 0 0 0;
+       
+}

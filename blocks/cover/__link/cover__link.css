@@ -1,0 +1,33 @@
+.cover__link {
+    text-decoration: none;
+    min-height: 740px;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/cover-route-66.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;   
+
+}
+
+.cover__link:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #2a2c2f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-delay: .4s;
+    opacity: .5;
+    transition-duration: .4s;
+}
+
+
+.cover__link:hover:after {
+    opacity: .7;
+
+}

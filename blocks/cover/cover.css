@@ -1,0 +1,8 @@
+@import url('../cover/__link/cover__link.css');
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__text/cover__text.css');
+
+.cover {
+    margin-top: 92px;
+ 
+ }

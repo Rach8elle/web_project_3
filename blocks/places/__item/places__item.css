@@ -1,0 +1,16 @@
+
+.places__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin-bottom: 80px;
+
+}
+
+
+.places__item:last-child {
+    margin-bottom: 0;
+
+}
