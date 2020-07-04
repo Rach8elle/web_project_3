@@ -8,12 +8,21 @@
 }
 
 
+.places__paragraph:last-child {
+
+    margin-bottom: 0;
+}
+
+
+
+
 /* large smart phone */
 @media screen and (max-width: 990px) {
 
     .places__paragraph {
         font-size: 16px;
     line-height: 26px;
+    
 
     }
 }
@@ -28,6 +37,8 @@
         font-size: 16px;
         line-height: 26px;
         margin-left: 16px;
+        margin-top: 0;
+     
     }
    
 }

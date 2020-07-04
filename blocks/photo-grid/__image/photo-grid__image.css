@@ -27,7 +27,7 @@
 @media screen and (max-width: 990px) {
     .photo-grid__image {
         max-width: 352px;
-        /* height: 264px; */
+       
         }
 }
 
@@ -36,8 +36,9 @@
 @media screen and (max-width: 435px) {
 
     .photo-grid__image {
-        max-width: 288px;;
-        /* height: 264px; */
+        max-width: 288px;
+     
+      
         }
     
 

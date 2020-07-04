@@ -9,10 +9,36 @@
     } 
 
 
+    /* tablets */
+@media screen and (max-width: 1160px) {
+    .photo-grid__container {
+         gap: 14px;
+         max-width: 928px;
+    }
+
+
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+    .photo-grid__container {
+        max-width: 720px;
+    }
+
+}
+
+
+
 
     /* small smart phone */
 @media screen and (max-width: 435px) {
     .photo-grid__container {
         padding: 0;
+        max-width: 320px;
+        /* gap: 12px; */
+
     }
 }
+
+

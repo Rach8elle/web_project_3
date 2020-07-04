@@ -8,6 +8,32 @@
     text-align: center;
     position: relative;
     z-index: 1;
+    max-width: 320px;
+}
+
+/* tablets */
+@media screen and (max-width: 1160px) {
+
+
+
+
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+}
+
+
+/* med smart phone */
+@media screen and (max-width: 635px) {
+
+    .cover__text {
+        max-width: 320px;
+        
+    }
+
 }
 
 
@@ -18,7 +44,7 @@
 .cover__text {
     font-size: 14px;
     line-height: 16px;
-    max-width: 250px;
+    max-width: 288px;
 
 }
 }
