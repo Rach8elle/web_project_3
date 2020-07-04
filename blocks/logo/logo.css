@@ -1,0 +1,41 @@
+.logo {
+
+   max-width: 190px;
+    /* height: 44px; */
+}
+
+
+
+/* tablets */
+@media screen and (max-width: 1160px) {
+
+
+    .logo {
+      
+
+    }
+
+}
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+    .logo {
+
+      
+
+    }
+}
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+    .logo {
+       max-width: 156px;
+/* height: 36px; */
+
+
+    }
+
+}

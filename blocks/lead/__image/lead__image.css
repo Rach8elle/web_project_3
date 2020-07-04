@@ -1,8 +1,8 @@
 .lead__image {
     max-width: 984px;
     width: 100%;
-    /* height: auto; */
-    /* margin: auto; */
+    height: 615px;
+   object-fit: cover;
 }
 
 
@@ -10,23 +10,37 @@
 
 /* tablets */
 @media screen and (max-width: 1024px) {
+    
 .lead__image {
     
-    width: 100%;
+
+    max-width: 928px;
+    height: 580px;
+
 
 }
 }
 
 /* large smart phone */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
    
-  
-
     .lead__image {
-        width: 100vw;
+        max-width: 768px;
+        height: 480px;
+        width: 100%;
     }
 
 }
+
+/* large smart phone */
+/* @media screen and (max-width: 816px) {
+   
+    .lead__image {
+        width: 100vw;
+        height: 480px;
+    }
+
+} */
 
 
 /* small smart phone */
@@ -36,8 +50,8 @@
    
     .lead__image {
  
-     min-height: 200px;
-     min-width: 320px;
+        width: 100vw;
+        height: 200px;
    
     }
 

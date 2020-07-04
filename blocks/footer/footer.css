@@ -1,13 +1,14 @@
 @import url('../footer/__nav/footer__nav.css');
 @import url('../footer/__link/footer__link.css');
 @import url('../footer/__links/footer__links.css');
+@import url('../footer/__copyright/footer__copyright.css');
 
 .footer {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    margin-top: 92px;
+    margin: 92px auto 0;
 }
 
 
@@ -15,16 +16,30 @@
 /* tablets */
 @media screen and (max-width: 1160px) {
 
-
+    .footer {
+        max-width: 928px;
+ 
+        
+        }
 
 
 }
+
 
 
 /* large smart phone */
 @media screen and (max-width: 990px) {
 
+    .footer {
+      /* margin-left: 24px; */
+      max-width:  720px;
+  }
+
+
 }
+
+
+
 
 
 

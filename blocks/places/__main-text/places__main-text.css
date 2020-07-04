@@ -1,0 +1,18 @@
+.places__main-text {
+
+
+
+}
+
+
+
+   /* small smart phone */
+   @media screen and (max-width: 435px) {
+
+    .places__main-text {
+
+        max-width: 304px;
+
+    }
+
+}

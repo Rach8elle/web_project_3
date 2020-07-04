@@ -6,6 +6,7 @@
 @import url('../places/__title/places__title.css');
 @import url('../places/__image/places__image.css');
 @import url('../places/__paragraph/places__paragraph.css');
+@import url('../places/__main-text/places__main-text.css');
 
 .places {
     margin: 92px auto;
@@ -32,7 +33,7 @@
 
   
     .places {
-        margin: 92px auto 0;
+        margin: 92px 48px 0;
         max-width: 924px;
     }
 

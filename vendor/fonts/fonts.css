@@ -1,25 +1,22 @@
 @font-face {
-    font-family: "Inter";
-    font-style: normal;
+    font-family: Inter;
     font-weight: 400;
-    src url('./Inter-Regular.woff'),
-    src url('./Inter-Regular.woff2');
+    src: url(Inter-Regular.woff),
+    src: url(Inter-Regular.woff2);
 }
 
 @font-face {
-    font-family: "Inter";
-    font-style: normal;
+    font-family: Inter;
     font-weight: 700;
-    src url('./Inter-SemiBold.woff'),
-    src url('./Inter-SemiBold.woff2');
+    src: url(Inter-SemiBold.woff),
+    src: url(Inter-SemiBold.woff2);
 
 }
 
 @font-face {
-    font-family: "Inter";
-    font-style: normal;
+    font-family: Inter;
     font-weight: 900;
-    src url('./Inter-Bold.woff'),
-    src url('./Inter-Bold.woff2');
+    src: url(Inter-Bold.woff),
+    src: url(Inter-Bold.woff2);
 
 }

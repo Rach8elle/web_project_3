@@ -9,19 +9,19 @@
 /* tablets */
 @media screen and (max-width: 1160px) {
 
-.places_image {
-    max-width:440px;
+    .places__image {
+        max-width: 440px;
+    }
 
 
-}
 }
 
 
 /* large smart phone */
 @media screen and (max-width: 990px) {
 
-    .places_image {
-        max-width:340px;
+    .places__image {
+        max-width: 340px;
     
     
     }
@@ -39,9 +39,10 @@
 @media screen and (max-width: 435px) {
 
 
-    /* .places__image {
+    .places__image {
      max-width: 100vw;
-     margin-top: 64px;
+     margin-top: 0;
      margin-bottom: 32px;
+     margin-right: 0;
     }
-} */
+}

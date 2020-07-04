@@ -3,6 +3,7 @@
 
 .photo-grid {
     margin: 92px 0 0;
+    
        
 }
 
@@ -11,9 +12,10 @@
 /* tablets */
 @media screen and (max-width: 1160px) { 
 
-.photo-grid {
-    margin: 0;
-}
+    .photo-grid {
+        margin-left: 48px;
+     
+    }
 }
 
 
@@ -22,6 +24,7 @@
 
     .photo-grid {
         margin-left: 24px;
+        max-width: 720px;
        
            
     }

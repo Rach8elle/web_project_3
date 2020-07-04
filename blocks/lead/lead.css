@@ -12,4 +12,35 @@
     margin: 0 auto;
 }
 
+/* tablets */
+@media screen and (max-width: 1024px) {
 
+    .lead {  
+    max-width: 928px;
+    }
+
+}
+
+
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+    .lead {
+        
+        /* max-width: 720px; */
+    }
+
+
+}
+
+
+
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+
+
+
+}
