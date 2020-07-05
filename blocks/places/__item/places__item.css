@@ -40,8 +40,8 @@
 
 
     .places__item {
-        display: flex;
-        flex-direction: column;
+   
+        display: block;
         margin-bottom: 48px;
        
     }
