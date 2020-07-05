@@ -47,7 +47,8 @@
 
     .intro{
 
-        max-width: calc(100vw - 32px);
+        /* max-width: calc(100vw - 32px); */
+        max-width: 288px;
         margin-left: 16px;
        margin-top: 64px;
         

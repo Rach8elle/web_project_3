@@ -9,3 +9,51 @@
 
 
 
+/* tablets */
+@media screen and (max-width: 1024px) {
+    .intro__paragraph {
+       
+      
+    }
+}
+
+
+
+
+/* large smart phone */
+@media screen and (max-width: 990px) {
+
+    .intro__paragraph {
+       max-width: 720px;
+       
+    }
+
+}
+
+@media screen and (max-width: 746px) {
+
+    .intro__paragraph {
+        
+    max-width: calc(100vw - 60px);
+ 
+}
+
+
+
+}
+
+/* small smart phone */
+@media screen and (max-width: 435px) {
+
+    .intro{
+
+        /* max-width: calc(100vw - 32px); */
+        /* max-width: 288px; */
+       
+        
+    }
+
+}
+
+
+
