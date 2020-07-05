@@ -1,62 +1,12 @@
 .lead__image {
-    /* max-width: 984px; */
+   
     width: 100%;
     margin: 0;
     padding: 0;
-    /* max-height: 615px; */
-   
-   /* object-fit: cover; */
+  
 }
 
 
 
 
-/* tablets */
-@media screen and (max-width: 1024px) {
-    
-.lead__image {
-    
 
-    /* max-width: 928px; */
-    /* height: 580px; */
-
-
-}
-}
-
-/* large smart phone */
-@media screen and (max-width: 768px) {
-   
-    .lead__image {
-        /* max-width: 768px; */
-        /* height: 480px; */
-        /* width: 100%; */
-    }
-
-}
-
-/* large smart phone */
-/* @media screen and (max-width: 816px) {
-   
-    .lead__image {
-        width: 100vw;
-        /* height: 480px; */
-    }
-
-} */
-
-
-/* small smart phone */
-@media screen and (max-width: 435px) {
-
-
-   
-    .lead__image {
- 
-        /* width: 100vw; */
-        /* height: 200px; */
-        /* object-fit: none; */
-   
-    }
-
-}

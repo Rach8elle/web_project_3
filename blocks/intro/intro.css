@@ -9,7 +9,7 @@
 .intro {
     max-width: 984px;
     width: 100%;
-    margin: 92px auto 92px;
+    margin: 92px auto 0;
     display: flex;
     flex-direction: column;
    
@@ -22,7 +22,7 @@
 /* tablets */
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 88px auto 88px;
+       
         max-width: 928px;
     }
 }
@@ -37,12 +37,7 @@
        max-width: 720px;
         margin-top: 88px;
         margin-left: 24px;
-
-       
-       
-           
     }
-
 
 }
 
@@ -54,7 +49,7 @@
 
         max-width: calc(100vw - 32px);
         margin-left: 16px;
-        margin: 64px auto 864x;
+       margin-top: 64px;
         
     }
 
