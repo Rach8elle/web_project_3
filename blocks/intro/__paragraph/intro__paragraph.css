@@ -9,14 +9,6 @@
 
 
 
-/* tablets */
-@media screen and (max-width: 1024px) {
-    .intro__paragraph {
-       
-      
-    }
-}
-
 
 
 
@@ -34,7 +26,7 @@
 
     .intro__paragraph {
         
-    max-width: calc(100vw - 60px);
+    max-width: calc(100vw - 50px);
  
 }
 
@@ -42,18 +34,6 @@
 
 }
 
-/* small smart phone */
-@media screen and (max-width: 435px) {
-
-    .intro{
-
-        /* max-width: calc(100vw - 32px); */
-        /* max-width: 288px; */
-       
-        
-    }
-
-}
 
 
 

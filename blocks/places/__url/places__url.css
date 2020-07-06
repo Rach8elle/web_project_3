@@ -1,18 +1,23 @@
 .places__url {
     font-size: 12px;
     line-height: 20px;
-    letter-spacing: 0.2em;
+    letter-spacing: .2em;
     margin: 0;
     color: #AAAAAA;
 }
 
 
-/* large smart phone */
-@media screen and (max-width: 990px) {
+
+
+
+  /* tablets */
+  @media screen and (max-width: 1140px) {
 
     .places__url {
-        font-size: 12px;
-        line-height: 12px;
-    }
 
-}
+        font-size: 12px;
+        line-height: 12px
+
+    } 
+  }
+

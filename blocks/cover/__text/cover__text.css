@@ -11,19 +11,6 @@
   
 }
 
-/* tablets */
-@media screen and (max-width: 1160px) {
-
-
-
-
-}
-
-
-/* large smart phone */
-@media screen and (max-width: 990px) {
-
-}
 
 
 /* med smart phone */
@@ -41,10 +28,10 @@
 /* small smart phone */
 @media screen and (max-width: 435px) {
 
-.cover__text {
-    font-size: 14px;
-    line-height: 16px;
-    max-width: 288px;
+    .cover__text {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
 
-}
+    }
 }

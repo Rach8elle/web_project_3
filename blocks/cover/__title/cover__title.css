@@ -6,8 +6,6 @@
     min-width: 656px;
     text-align: center;
     margin: 0;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
     position: relative;
     z-index: 1;
 }
@@ -15,13 +13,6 @@
 
 
 
-/* tablets */
-@media screen and (max-width: 1160px) {
-
-
-
-
-}
 
 
 /* large smart phone */
